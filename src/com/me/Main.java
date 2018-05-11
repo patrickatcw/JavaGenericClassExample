@@ -32,6 +32,26 @@ public class Main {
         GenericClass
          */
 
+        System.out.println("==================================");
+        System.out.println("for test2");
+
+        //instance for creating a new Test2 object form the Test2 class
+        Test2 <String, Integer> testtwo = new Test2<String, Integer>("GenClass", 21);
+
+        testtwo.print();
+
+        /*results;
+            integer type
+            1
+            ----------------------------------
+            string type
+            GenericClass
+            ==================================
+            for test2
+            GenClass
+            21
+         */
+
     }
 
 }
