@@ -1,7 +1,8 @@
 package com.me;
 
-public class Test<T>
-{
+// use < > to specify Parameter type
+public class Test<T> {
+
     // An object of type T is declared
     T obj;
 
@@ -16,6 +17,5 @@ public class Test<T>
         return this.obj;
 
     }
-
 
 }
